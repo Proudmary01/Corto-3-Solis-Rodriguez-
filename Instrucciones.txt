@@ -1,0 +1,15 @@
+Base de datos:
+SQL SERVER
+-> Cambiar SERVER/INSTANCIA en inc/classes/DB.php
+
+Referencia Creacion Tabla y Función:
+php-login-secure-sqlfunc -> database
+
+Dependiendo del localhost:
+MAMP
+-> PHP 7.1
+-> php_sqlsrv_4.1.3_x86: Librerias necesarias.
+https://github-production-release-asset-2e65be.s3.amazonaws.com/19043988/66443230-8a21-11e6-91b3-a30303c59adf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171007%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171007T061410Z&X-Amz-Expires=300&X-Amz-Signature=944b6bcfa7ca31ff914ccad68b820786c4353986609e0976e6f7ee1cf9b73646&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3D7.1.zip&response-content-type=application%2Foctet-stream
+-> Editar php.ini y agregar las referencias en Extension.
+-> Instalador Plug On: Mejora la experiencia al usuario.
+https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_64bit.msi
